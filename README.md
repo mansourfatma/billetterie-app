@@ -1,10 +1,23 @@
-WorldCup 2026 - Ticketing (Frontend)
-------------------------------------
+# WorldCup 2026 - Ticketing (Frontend)
 
-Quick start:
+## Description
+Application web permettant de consulter des matchs et réserver des billets pour la Coupe du Monde 2026.
+
+## Technologies utilisées
+- React
+- TypeScript
+- API REST
+
+## Fonctionnalités
+- Affichage des matchs
+- Consultation des détails
+- Réservation de billets
+- Gestion des utilisateurs
+
+## Lancer le projet
 1. npm install
 2. npm run dev
-3. Open http://localhost:5173
+3. ouvrir http://localhost:5173
 
-Default API: https://worldcup2026.shrp.dev (override with VITE_API_URL)
-Note: vite.config.ts includes a HOME fix to avoid uv_os_homedir ENOENT on some systems.
+## Ce que j’ai appris
+Ce projet m’a permis de comprendre le développement frontend avec React, la gestion des composants et la communication avec une API.
