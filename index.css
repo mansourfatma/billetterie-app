@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui;
+  --color-fifaBlue: #0b1e4e;
+  --color-fifaGold: #ffcc00;
+}
+
+/* 🌍 WorldCup 2026 — Glassmorphism Theme */
+body {
+  @apply bg-gradient-to-b from-[#020a1d] via-[#061437] to-[#0b1e4e] text-gray-100 min-h-screen font-sans antialiased;
+}

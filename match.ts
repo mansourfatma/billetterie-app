@@ -1,0 +1,1 @@
+import { Team } from './team'; export interface Stadium { id:number; name:string; city:string; country:string; capacity?:number; timezone?:string } export interface Match { id:number; date:string; homeTeam:Team; awayTeam:Team; stadium:Stadium; stage?:string; status?:string }
